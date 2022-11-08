@@ -1,0 +1,126 @@
+.footer {
+    background: $footer-bg;
+    padding: 32px 0 23px 0;
+    position: relative;
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            margin-bottom: 44px;
+
+            @include _780-block {
+                flex-wrap: wrap;
+                align-content: center;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+
+
+
+        .footer-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            margin-bottom: 38px;
+        }
+
+        .footer-link {
+
+            font-family: 'Gotham Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 15px;
+            font-family: $thin-font;
+
+            color: $absolutely-white;
+        }
+
+        .footer-title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: $absolutely-white;
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 16px;
+            font-size: 20px;
+        }
+
+        .footer-icon {
+            color: $absolutely-white;
+
+        }
+
+        .footer-payments {
+            display: flex;
+            column-gap: 17px;
+        }
+
+        .footer-third {
+            .footer-title {}
+
+            .footer-list {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .footer-rules {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 19px;
+
+        @include _320-block {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__list {
+            display: flex;
+            column-gap: 22px;
+            align-items: center;
+
+            @include _320-block {
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+
+        h3 {
+            font-weight: 400;
+            font-size: calc(13px + 3 * (100vw / 1920));
+            line-height: 30px;
+            color: $absolutely-white;
+
+
+            @include _320-block {
+                font-size: calc(13px + (3 + 3 * 0.3) * ((100vw / 320) / 1920));
+            }
+        }
+
+        a {
+            text-decoration: underline;
+            color: $absolutely-white;
+            font-size: calc(13px + 3 * (100vw / 1920));
+
+            @include _320-block {
+                font-size: calc(13px + (3 + 3 * 0.3) * ((100vw / 320) / 1920));
+            }
+        }
+    }
+}

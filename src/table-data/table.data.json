@@ -1,0 +1,121 @@
+[
+    {
+        "first": "Количество пользователей",
+        "second": "до 5",
+        "third": "до 20",
+        "fourth": "до 50",
+        "fifth": "до 100"
+    },
+    {
+        "first": "Место",
+        "second": "5 Гб",
+        "third": "20 Гб",
+        "fourth": "50 Гб",
+        "fifth": "1 Т"
+    },
+    {
+        "first": "База знаний",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Новости",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Обучение",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Аналитика",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Контроль качества",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Чат",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Структура компании",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Поддержка",
+        "second": "+",
+        "third": "+",
+        "fourth": "-",
+        "fifth": "+"
+    },
+    {
+        "first": "Администрирование/аудит",
+        "second": "-",
+        "third": "-",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Перенос на сервер клиента",
+        "second": "-",
+        "third": "-",
+        "fourth": "-",
+        "fifth": "+"
+    }, {
+        "first": "Индивидуальный домен клиента",
+        "second": "-",
+        "third": "-",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Брендирование кабинета (размещение логотипа, фирменный цвет",
+        "second": "+",
+        "third": "+",
+        "fourth": "+",
+        "fifth": "+"
+    },
+    {
+        "first": "Оплата в месяц",
+        "second": "",
+        "third": "9 000",
+        "fourth": "27 000",
+        "fifth": "100 000"
+    },
+    {
+        "first": "Оплата в год",
+        "second": "",
+        "third": "108 000",
+        "fourth": "291 600",
+        "fifth": "960 000"
+    },
+    {
+        "first": "Скидка",
+        "second": " ",
+        "third": " ",
+        "fourth": "20%",
+        "fifth": "20%"
+    }
+    
+]

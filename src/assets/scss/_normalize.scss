@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: $main-font;
+    background: $main-bg;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    color: $black;
+    text-align: center;
+    position: relative;
+    margin-bottom: 67px;
+
+
+}
+
+.ellipse {
+
+
+    @include _780-block {
+        display: none;
+    }
+}
+
+.title {
+   
+    @include _780-block{
+        font-size: 19px !important;
+    }
+}
+
+.subtitle {
+
+
+    @include _780-block{
+        font-size: 17px !important;
+    }
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+
+    @include _1260-block {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+}
+
+//Scroll

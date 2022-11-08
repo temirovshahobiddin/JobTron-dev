@@ -1,0 +1,20 @@
+.btn {
+    background: $blue;
+    border-radius: 50px;
+    color: $absolutely-white;
+    outline: none;
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    font-family: $main-font;
+    text-align: center;
+    padding: 14px 0;
+    overflow: hidden;
+
+    &-navbar {
+        max-width: 165px;
+        width: 100%;
+    }
+}

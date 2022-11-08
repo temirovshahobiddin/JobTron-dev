@@ -1,0 +1,45 @@
+$main-bg: #F5F5F5;
+$footer-bg: #424D53;
+$boxed-width: 1140px;
+
+$black: #000000;
+$black-link: #252525;
+$blue: #43A9FE;
+$blue-text: #42B1F4;
+$blue-table: #EDF8FF;
+$white-table: #F5F5F5;
+$absolutely-white: #F5F5F5;
+$yellow: #FFD86B;
+$purple: #9082BB;
+$user: #252525;
+$user-ico: #6F4F28;
+$dropdown-title: #303B4D;
+$switch-btn-bg: #F0F9FF;
+$switch-btn-cl: #B1ACC1;
+
+$line: #D9D9D9;
+
+
+$success-color: #b7ce63;
+$success-contrast: #000;
+$info-color: #64b5f6;
+$info-contrast: #000;
+$warning-color: #e9e165;
+$warning-contrast: #000;
+$error-contrast: #fff;
+
+//fonts 
+$main-font: "gotham pro";
+$thin-font: "gotham pro light";
+
+$box-shadow: 0 0 20px
+  rgba(
+    $color: #000000,
+    $alpha: 0.05,
+  );
+
+:root {
+  --main-color: main-palette(500);
+  --main-bg: #F5F5F5;
+  --boxed-width: 1140px;
+}

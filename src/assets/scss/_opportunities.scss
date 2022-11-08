@@ -1,0 +1,114 @@
+.opportunities {
+
+
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+        &__title {
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 38px;
+            color: $black;
+            margin-bottom: 31px;
+        }
+
+        &__subtitle {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 17px;
+            color: $black;
+            font-family: $thin-font;
+            margin-bottom: 106px;
+        }
+
+        .opportunities-main {
+
+            .opportunities-block {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 51px;
+                margin-bottom: 179px;
+                position: relative;
+
+                @include _780-block{
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    gap: 20px;
+                }
+
+                .opportunities-block__ellipse {
+                    max-width: 1200px;
+                    width: 100%;
+                }
+
+                .opportunities-block__screen{
+                    max-width: 920px;
+                    width: 100%;
+                }
+
+                &:nth-of-type(1) {
+
+                    .opportunities-block__ellipse {
+                        position: absolute;
+                        left: 39px;
+                        z-index: -1;
+
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    @include _780-block{
+                        flex-direction: column-reverse;
+                        gap: 20px;
+                        align-items: center;
+                    }
+    
+                    flex-direction: row-reverse;
+                    margin-bottom: 152px !important;
+
+                    .opportunities-block__ellipse {
+                        position: absolute;
+                        left: 39px;
+                        z-index: -1;
+
+                    }
+                }
+
+                &__part {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                }
+
+                &__title {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 23px;
+                    color: $black;
+                    margin-bottom: 29px;
+                }
+
+                &__txt {
+                    font-family: $thin-font;
+                    max-width: 543px;
+                    width: 100%;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+
+                &__ellipse {
+                    position: absolute;
+                    z-index: -1;
+
+                }
+            }
+
+        }
+    }
+}
